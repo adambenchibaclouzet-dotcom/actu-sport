@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Insider - Actu Sport</title>
+  <link rel="stylesheet" href="style-football.css">
+  <style>
+    /* Styles spécifiques pour enrichir la mise en page sans modifier le CSS principal */
+    .exclusive-box { background: #fff3cd; padding: 25px; border-radius: 12px; border: 1px solid #ffeeba; margin: 25px 0; line-height: 1.6; }
+    .transfer-table { width: 100%; border-collapse: collapse; margin: 25px 0; background: white; border-radius: 10px; overflow: hidden; }
+    .transfer-table th, .transfer-table td { padding: 15px; border: 1px solid #eee; text-align: left; }
+    .transfer-table th { background-color: #1e3c72; color: white; text-transform: uppercase; font-size: 13px; }
+    .live-indicator { color: #e53935; font-weight: bold; animation: blink 1s infinite; display: inline-flex; align-items: center; }
+    .live-indicator::before { content: ''; width: 10px; height: 10px; background: #e53935; border-radius: 50%; margin-right: 8px; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .tactical-board { background: #2e7d32; color: white; padding: 30px; border-radius: 10px; border: 4px solid #1b5e20; margin: 20px 0; }
+    .upcoming-matches { display: flex; flex-direction: column; gap: 10px; margin: 20px 0; }
+    .match-card { background: white; padding: 15px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    .match-time { font-weight: bold; color: #1e3c72; }
+    .academy-section { background: #e3f2fd; padding: 25px; border-radius: 10px; border-left: 5px solid #1e88e5; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <div class="logo">⚽ ACTU SPORT</div>
+      <div class="slogan">The sports information that fascinates you</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Football</a></li>
+        <li><a href="basketball.html">Basketball</a></li>
+        <li><a href="formule1.html">Formule 1</a></li>
+        <li><a href="volley.html">Volley</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="page-header" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
+      <h1>⚽ FOOTBALL INSIDER</h1>
+      <p><span class="live-indicator">LIVE UPDATES</span> 24/7 Global Football Coverage and Technical Reports</p>
+    </div>
+
+    <article class="article">
+      <span class="article-badge badge-news">📰 TOP STORY</span>
+      <h2>Erling Haaland to Madrid: Financial Engineering and Personal Terms</h2>
+     
+      <div class="article-meta">
+        <span>👤 By <strong>Alexandre Dacosta</strong></span>
+        <span>📅 January 4, 2026</span>
+        <span>⏱️ Reading time: 15 min</span>
+      </div>
+
+      <div class="article-image" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 400%22%3E%3Crect fill=%22%231e3c72%22 width=%221200%22 height=%22400%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Arial%22 font-size=%2250%22 fill=%22white%22 text-anchor=%22middle%22%3EHAALAND 2026 : THE WHITE JERSEY AWAITS%3C/text%3E%3C/svg%3E');">
+      </div>
+
+      <div class="article-content">
+        <p>The saga of the decade is reaching its climax. <strong>Erling Haaland</strong>, the man who redefined scoring standards in the Premier League, is reportedly ready to activate his release clause. Sources inside Manchester City suggest that the player feels his cycle in England is complete after securing two more league titles and a historic treble.</p>
+
+        <h3>The Financial Breakdown</h3>
+        <p>Real Madrid's proposal isn't just a contract; it's a financial masterstroke. The "Operation Cyborg" involves a total investment of nearly <strong>€500 million</strong> over five years, including transfer fees, commissions to agents, and a signing-on bonus that would be paid in three installments. To maintain the club's financial health, Madrid has recently signed a new sponsorship deal with a global tech giant, specifically to fund this move.</p>
+
+        <div class="exclusive-box">
+          <strong>💡 PRO INSIGHT:</strong> Beyond the money, Haaland is seduced by the project of playing in the renovated Santiago Bernabéu. He has reportedly requested the number 9 jersey, currently held by Kylian Mbappé, leading to potential negotiations between the two superstars regarding jersey numbers and commercial roles.
+        </div>
+
+        <h3>Tactical Board: The "Perfect" Formation</h3>
+        <div class="tactical-board">
+          <h4>Proposed 4-3-3 Attack (Ancelotti System)</h4>
+          <p>• LW: <strong>Vinícius Júnior</strong> (The Dribbler)</p>
+          <p>• ST: <strong>Erling Haaland</strong> (The Finisher)</p>
+          <p>• RW: <strong>Kylian Mbappé</strong> (The Speedster)</p>
+          <p><em>Note: Mbappé would have a free role to drift inside, allowing Haaland to focus on occupying the two central defenders.</em></p>
+        </div>
+      </div>
+    </article>
+
+    <section class="article">
+      <h3>📅 Upcoming Big Matches</h3>
+      <div class="upcoming-matches">
+        <div class="match-card">
+          <span>Real Madrid vs FC Barcelona (La Liga)</span>
+          <span class="match-time">Jan 10 - 21:00</span>
+        </div>
+        <div class="match-card">
+          <span>Man City vs Liverpool (Premier League)</span>
+          <span class="match-time">Jan 11 - 17:30</span>
+        </div>
+        <div class="match-card">
+          <span>Bayern Munich vs Dortmund (Bundesliga)</span>
+          <span class="match-time">Jan 12 - 15:30</span>
+        </div>
+        <div class="match-card">
+          <span>PSG vs Marseille (Ligue 1)</span>
+          <span class="match-time">Jan 12 - 20:45</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="article">
+      <h3>🔄 Winter Transfer Market Tracker</h3>
+      <table class="transfer-table">
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Old Club</th>
+            <th>New Club</th>
+            <th>Fee</th>
+            <th>Confidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Victor Osimhen</td>
+            <td>Napoli</td>
+            <td>Chelsea</td>
+            <td>€110M</td>
+            <td>100% (Done)</td>
+          </tr>
+          <tr>
+            <td>Florian Wirtz</td>
+            <td>Leverkusen</td>
+            <td>Bayern</td>
+            <td>€135M</td>
+            <td>85% (Negotiating)</td>
+          </tr>
+          <tr>
+            <td>Rafael Leão</td>
+            <td>AC Milan</td>
+            <td>Arsenal</td>
+            <td>€95M</td>
+            <td>60% (Talks)</td>
+          </tr>
+          <tr>
+            <td>Joao Neves</td>
+            <td>Benfica</td>
+            <td>Man United</td>
+            <td>€80M</td>
+            <td>100% (Done)</td>
+          </tr>
+          <tr>
+            <td>Gavi</td>
+            <td>Barcelona</td>
+            <td>Liverpool</td>
+            <td>€120M</td>
+            <td>10% (Rumor)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <article class="article academy-section">
+      <h3>💎 Academy Watch: The Stars of 2027</h3>
+      <p>While the world looks at Haaland and Mbappé, the next generation is already making noise in the youth academies. Scouts from across Europe are converging on Lisbon and Lyon this month.</p>
+      <ul>
+        <li><strong>Enzo Alves (Real Madrid):</strong> The son of Marcelo is destroying records in the Juvenil A squad.</li>
+        <li><strong>Francesco Camarda (AC Milan):</strong> Already debuting in Serie A at 15, his goal-scoring instinct is compared to Van Basten.</li>
+        <li><strong>Lamine Yamal (Barcelona):</strong> At 18, he is no longer a prospect but the leader of the Blaugrana attack.</li>
+      </ul>
+    </article>
+
+    <section class="article">
+      <h3>❓ Did You Know? - Football Facts</h3>
+      <div class="article-content">
+        <p>1. The Santiago Bernabéu's new retractable pitch allows the stadium to host NFL games and concerts without damaging the grass used for football.</p>
+        <p>2. Erling Haaland consumes over 6,000 calories a day, including a specific diet of cow's heart and liver to maintain his physical power.</p>
+        <p>3. The Champions League trophy's handles are so large that it is often nicknamed "The Big Ears" (La Orejona).</p>
+      </div>
+    </section>
+
+    <section class="comments-section">
+      <h3>💬 Global Fan Base (3,120 comments)</h3>
+      <div class="comment">
+        <div class="comment-author">Tactician_UK</div>
+        <div class="comment-date">Jan 4, 2026 - 16:20</div>
+        <p>Bellingham is the key. If he plays as a false 10 behind Haaland and Mbappé, the balance will be perfect. Madrid is building a Dynasty.</p>
+      </div>
+      <div class="comment">
+        <div class="comment-author">CatalanPride_1899</div>
+        <div class="comment-date">Jan 4, 2026 - 16:45</div>
+        <p>Let them buy all the stars. Barcelona will answer with La Masia. History has shown that money doesn't always buy the DNA of football.</p>
+      </div>
+      <div class="comment-form">
+        <h4>💭 Join the Discussion</h4>
+        <textarea placeholder="Write your analysis here..." style="width: 100%; min-height: 80px; margin-bottom: 10px; padding: 10px; border-radius: 5px; border: 1px solid #ddd;"></textarea>
+        <button>Post Comment</button>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p><strong>© 2025 - ACTU SPORT | FOOTBALL HEADQUARTERS</strong></p>
+      <p>The number one source for independent sports journalism.</p>
+      <div style="margin-top: 15px;">
+        <a href="#" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Twitter</a>
+        <a href="#" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Instagram</a>
+        <a href="#" style="color: #ffd700; text-decoration: none; margin: 0 10px;">YouTube</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
